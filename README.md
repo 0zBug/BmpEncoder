@@ -11,7 +11,7 @@ for y = 1, 255 do
     end
 end
 
-writefile("example.bmp", Bitmap(Bitmap))
+writefile("example.bmp", BitmapBinary(Bitmap))
 ```
 # Output
 ![](https://raw.githubusercontent.com/0zBug/BmpEncoder/main/example.bmp)
